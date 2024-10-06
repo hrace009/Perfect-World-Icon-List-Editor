@@ -1,0 +1,42 @@
+object ProgressFrm: TProgressFrm
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'ProgressFrm'
+  ClientHeight = 36
+  ClientWidth = 560
+  Color = clBtnFace
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PrintScale = poNone
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 560
+    Height = 36
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 559
+    ExplicitHeight = 46
+    object progr: TsGauge
+      Left = 2
+      Top = 2
+      Width = 555
+      Height = 31
+      SkinData.SkinSection = 'GAUGE'
+      ForeColor = clBlack
+      Progress = 0
+      Suffix = '%'
+    end
+  end
+end
