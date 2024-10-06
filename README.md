@@ -1,7 +1,7 @@
 # Perfect World Icon List Editor
  Editor for Perfect World Icon
 
-Original Code from Alexdnepro
+Original Code from [alexdnepro](https://forum.ragezone.com/members/alexdnepro.750935/)
 
 ## Features:
 - Preview icons (supports many image formats, including dds)
@@ -13,6 +13,10 @@ Original Code from Alexdnepro
 - Split pack icons into separate files
 - Collect icons pack from single files
 - Change the name of icons in pack
+
+## Preview:
+![image](https://github.com/user-attachments/assets/a31b5649-ceaf-4953-882a-44464bff5894)
+
 
 ## Components used:
 - [RAD Studio Delphi and C++ Builder VCL components for GUI design development](http://www.alphaskins.com/)
